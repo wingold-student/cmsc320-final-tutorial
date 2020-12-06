@@ -55,3 +55,9 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 1607203489362	Marionette	INFO	Listening on port 55669
 1607203489783	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607217291444	geckodriver	INFO	Listening on 127.0.0.1:63900
+1607217294456	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\willi\\AppData\\Local\\Temp\\rust_mozprofileHJKzHM"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1607217296120	Marionette	INFO	Listening on port 63915
+1607217296492	Marionette	WARN	TLS certificate errors will be ignored for this session
