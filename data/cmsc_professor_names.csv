@@ -1,10 +1,10 @@
 name,courses
-Evan Golub,CMSC131
-Fawzi Emad,CMSC131 CMSC250 CMSC132
-Ilchul Yoon,CMSC131 CMSC216 CMSC132
-Nelson Padua-Perez,CMSC131 CMSC216 CMSC132
-Pedram Sadeghian,CMSC131 CMSC132
-Anwar Mamat,CMSC132
+Evan Golub,CMSC250 CMSC131
+Fawzi Emad,CMSC132 CMSC250 CMSC131
+Ilchul Yoon,CMSC216 CMSC132 CMSC131
+Nelson Padua-Perez,CMSC216 CMSC132 CMSC131
+Pedram Sadeghian,CMSC216 CMSC132 CMSC131
+Anwar Mamat,CMSC216 CMSC132
 Laurence Herman,CMSC216 CMSC132
 A Shankar,CMSC216
 Aditya Acharya,CMSC250
@@ -14,5 +14,21 @@ David Sekora,CMSC250
 Donald Perlis,CMSC250
 Iason Filippou,CMSC250
 Jason Filippou,CMSC250
-Mohammad Nayeem Teli,CMSC250
-Roger Eastman,CMSC250
+Mohammad Nayeem Teli,CMSC250 CMSC131
+Roger Eastman,CMSC250 CMSC131
+Jandelyn Plane,CMSC131
+Thomas Reinhardt,CMSC132 CMSC250 CMSC131
+Mihai Pop,CMSC131
+William Pugh,CMSC131
+Alan Sussman,CMSC216
+Neil Spring,CMSC216
+A.U. Shankar,CMSC216
+Niwaer Ai,CMSC216
+Larry Herman,CMSC216
+Jose Calderon,CMSC216
+Michelle Hugue,CMSC250
+William Gasarch,CMSC250
+Shangfu Peng,CMSC250
+Alex Liao,CMSC250
+Katherine Scola,CMSC250
+Justin Wyss-Gallifent,CMSC250
