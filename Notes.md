@@ -14,3 +14,21 @@ We could also be looking at how reviews of a major change overtime?
 
 Do we want to use tags/difficulty from RMP in some way?
 * Could be its own analysis
+
+We also likely don't need to display all the data I'm printing right now in the data collection,
+maybe write down/let me know which you don't think are necessary
+
+# Setup stuff
+
+## Environment
+To get all the same dependencies/libraries I've been using, you can import
+the environment yaml with conda.
+
+If you CD into the project directory and use the command: conda activate final-tut
+
+That should put it all together. But I may have needless libraries and such, so you can
+install it all on your own if you want too.
+
+## Viewing the database
+If you want to look at stuff in the database instead of as pandas dataframes,
+you can use DB Browser for SQLite. You can get it here: https://sqlitebrowser.org/dl/
