@@ -32,3 +32,7 @@ install it all on your own if you want too.
 ## Viewing the database
 If you want to look at stuff in the database instead of as pandas dataframes,
 you can use DB Browser for SQLite. You can get it here: https://sqlitebrowser.org/dl/
+
+## Messing with PlanetTerp and UMD.io API
+
+If you want to play around with those API's, I'd recommend getting Postman: https://www.postman.com/downloads/
