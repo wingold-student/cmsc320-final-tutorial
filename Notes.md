@@ -36,3 +36,16 @@ you can use DB Browser for SQLite. You can get it here: https://sqlitebrowser.or
 ## Messing with PlanetTerp and UMD.io API
 
 If you want to play around with those API's, I'd recommend getting Postman: https://www.postman.com/downloads/
+
+# NLP Stuff
+
+List of possible sources for negative/positive lexicons:
+* https://medium.com/@datamonsters/sentiment-analysis-tools-overview-part-1-positive-and-negative-words-databases-ae35431a470c
+    * https://hlt-nlp.fbk.eu/technologies/sentiwords (-1 to 1 scoring with part of speech tag) (I've already requested the data and have it)
+    * https://provalisresearch.com/products/content-analysis-software/wordstat-dictionary/sentiment-dictionaries/ (You can download just dictionary)
+    * https://github.com/aesuli/SentiWordNet (Has rating too I think)
+    * https://github.com/jeffreybreen/twitter-sentiment-analysis-tutorial-201107/tree/08a269765a6b185d5f3dd522c876043ba9628715/data/opinion-lexicon-English
+    * https://sites.google.com/site/datascienceslab/projects/multilingualsentiment
+    * http://www2.imm.dtu.dk/pubdb/pubs/6010-full.html (-5 to 5 rating)
+    * https://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html#lexicon
+    * https://sentic.net/downloads/ I think we'd want to use SenticNet 1 (-1 to 1 scoring too I think)
