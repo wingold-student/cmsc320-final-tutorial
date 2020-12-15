@@ -73,6 +73,8 @@ If you want to play around with those API's, I'd recommend getting Postman: http
 
 # NLP Stuff
 
+Good resource: https://www.dataquest.io/blog/tutorial-text-classification-in-python-using-spacy/
+
 I currently chose to use: https://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html#lexicon
 
 List of possible sources for negative/positive lexicons:
