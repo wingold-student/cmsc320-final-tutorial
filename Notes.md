@@ -36,6 +36,15 @@ maybe write down/let me know which you don't think are necessary
 * Some mapping/graph of negative words to rating given AND/OR grade received 
 * Look at tag data of reviews or professors from RateMyProfessor
 
+## Sentiment Stuff
+I just did as the TA suggested and add/subtracted a score based on negative and positive words.
+So the 'sentiment_ground_label' is the positive/negative/neutral label, where
+1 is positive, -1 is negative, and 0 is neutral.
+
+I also have a function that can normalize the scoring between -1 and 1, so that we could
+gauge how negative or positive the review is. It is a VERY simple swap, so let me know if you
+want to try that instead.
+
 ## ML Ideas
 * Use the sentiment labels for reviews to train for detecting a negative/positive/neutral review
 * Linear/logistic regression (and/or gradient descent) for predicting future semesters
