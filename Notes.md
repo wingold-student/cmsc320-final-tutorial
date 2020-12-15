@@ -18,6 +18,31 @@ Do we want to use tags/difficulty from RMP in some way?
 We also likely don't need to display all the data I'm printing right now in the data collection,
 maybe write down/let me know which you don't think are necessary
 
+## Analysis / Graph ideas
+* Number of reviews & professors from each major
+    * I did this already, but should we try to even them out?
+* Dispersion of grades reported for each major
+    * bar graph: y-axis is count and x-axis is grade. Have a column per major for each grade
+* Grade dispersion over time for majors
+    * With the reviews we have self-reported grades and dates of posting.
+    * Y-axis could be the grade and x-axis is time
+    * Could separate into years or month/year or semester using the "date" column
+* Rating dispersion over time for majors
+    * Similar to grade dispersion
+* Sentiment dispersion over tiem for majors
+    * Again, similar to grade dispersion
+* Look at how many positive/negative word in relation to total words
+    * Doing this per major, not the most exciting graph though
+* Some mapping/graph of negative words to rating given AND/OR grade received 
+* Look at tag data of reviews or professors from RateMyProfessor
+
+## ML Ideas
+* Use the sentiment labels for reviews to train for detecting a negative/positive/neutral review
+* Linear/logistic regression (and/or gradient descent) for predicting future semesters
+    * This could be grade, sentiment, rating, etc.
+* Look to see if there is a tie between the review body (sentiment) and the grade/rating/difficulty
+    * Though I think this may need larger scale than just -1, 0, or 1 range for sentiment
+
 # Setup stuff
 
 ## Environment
@@ -38,6 +63,8 @@ you can use DB Browser for SQLite. You can get it here: https://sqlitebrowser.or
 If you want to play around with those API's, I'd recommend getting Postman: https://www.postman.com/downloads/
 
 # NLP Stuff
+
+I currently chose to use: https://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html#lexicon
 
 List of possible sources for negative/positive lexicons:
 * https://medium.com/@datamonsters/sentiment-analysis-tools-overview-part-1-positive-and-negative-words-databases-ae35431a470c
