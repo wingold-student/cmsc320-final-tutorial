@@ -19,15 +19,15 @@ We also likely don't need to display all the data I'm printing right now in the 
 maybe write down/let me know which you don't think are necessary
 
 ## Analysis / Graph ideas
-* Number of reviews & professors from each major
+* Number of reviews & professors from each major (Done)
     * I did this already, but should we try to even them out?
-* Dispersion of grades reported for each major
+* Dispersion of grades reported for each major (Done?)
     * bar graph: y-axis is count and x-axis is grade. Have a column per major for each grade
-* Grade dispersion over time for majors
+* Grade dispersion over time for majors (Done)
     * With the reviews we have self-reported grades and dates of posting.
     * Y-axis could be the grade and x-axis is time
     * Could separate into years or month/year or semester using the "date" column
-* Rating dispersion over time for majors
+* Rating dispersion over time for majors (Done?)
     * Similar to grade dispersion
 * Sentiment dispersion over tiem for majors
     * Again, similar to grade dispersion
