@@ -1,4 +1,4 @@
 *.code-workspace
 *.vscode/
 *.ipynb_checkpoints
-./geckodriver.log
+geckodriver.log
